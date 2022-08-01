@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="06518e73ec1b4ea7b0d71dee5cf65c9c" Name="Diagram1" ZoomLevel="29">
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogBagSeperate" Width="1.5" PointX="7.5" PointY="15.125" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogChangeLot" Width="1.5" PointX="9.75" PointY="50.375" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogChangeLotV2" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogEditInventory" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogEditMatReceive" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogEndBatch" Width="1.5" PointX="9.75" PointY="61.5" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogInventory" Width="1.5" PointX="0.75" PointY="5.75" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogMatRecieve" Width="1.5" PointX="5.25" PointY="28.25" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogMatRecieve_EditQty" Width="1.5" PointX="7.5" PointY="33.25" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogPrint_BagSep" Width="1.5" PointX="2.75" PointY="5.75" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogPrint_MatRe" Width="1.5" PointX="9.75" PointY="17.75" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogPrint_Prod" Width="1.5" PointX="10.5" PointY="26.875" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogPrint_ProdBag" Width="1.5" PointX="4.75" PointY="5.75" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogProdDetail" Width="1.5" PointX="8.25" PointY="22.375" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogProdDetail_6" Width="1.5" PointX="13.5" PointY="24.5" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogProdPlan" Width="1.5" PointX="12.75" PointY="54.25" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogRePrint_MatRe" Width="1.5" PointX="9.75" PointY="13.5" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogRePrint_Prod" Width="1.5" PointX="15.75" PointY="27.25" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogReweigh" Width="1.5" PointX="12.75" PointY="31" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogReWeightOrder" Width="1.5" PointX="10.5" PointY="31.5" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogSpecialCal" Width="1.5" PointX="12" PointY="57.875" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogSpecialOrder" Width="1.5" PointX="9.75" PointY="57.875" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.LogUpPlan" Width="1.5" PointX="5.25" PointY="54.375" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.MasterCauseChangeLot" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.MasterCauseEndBatch" Width="1.5" PointX="6.75" PointY="3.75" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.MasterCauseReprint" Width="1.5" PointX="6.75" PointY="6.75" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.MasterIng" Width="1.5" PointX="3" PointY="33.125" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.MasterPage" Width="1.5" PointX="0.75" PointY="23.75" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.MasterPosition" Width="1.5" PointX="0.75" PointY="26.75" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.MasterRecipe" Width="1.5" PointX="15" PointY="46" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.MasterRecipe_6" Width="1.5" PointX="17.25" PointY="46.5" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.MasterRecipeName" Width="1.5" PointX="5.25" PointY="50.5" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.MasterRecpCook" Width="1.5" PointX="7.5" PointY="50.5" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.MasterRecpStation" Width="1.5" PointX="12.75" PointY="46.625" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.MasterShift" Width="1.5" PointX="12.75" PointY="50.375" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.MasterStation" Width="1.5" PointX="10.5" PointY="47" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.MasterSupplier" Width="1.5" PointX="0.75" PointY="33.5" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.MasterUser" Width="1.5" PointX="3" PointY="28.625" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.MonitorStation" Width="1.5" PointX="8.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.Plan" Width="1.5" PointX="7.5" PointY="53.75" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.Position_Page" Width="1.5" PointX="3" PointY="25.625" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.sysdiagram" Width="1.5" PointX="8.75" PointY="4.75" />
+        <EntityTypeShape EntityType="Ajinomoto_Weighing_SystemModel.User_Page" Width="1.5" PointX="8.25" PointY="29.375" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogBagSeperate_LogMatRecieve" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogPrint_MatRe_LogBagSeperate" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogRePrint_MatRe_LogBagSeperate" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogChangeLot_Plan" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogEndBatch_Plan" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogMatRecieve_EditQty_LogMatRecieve" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogMatRecieve_MasterIng" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogMatRecieve_MasterUser" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogPrint_Prod_LogProdDetail" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogRePrint_Prod_LogPrint_Prod" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogProdDetail_6_LogProdDetail" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogProdDetail_LogProdPlan" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogProdDetail_MasterUser" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogReWeightOrder_LogReWeightOrder" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogProdDetail_6_MasterUser" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogProdPlan_MasterStation" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogProdPlan_Plan" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogRePrint_Prod_MasterUser" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogReweigh_LogProdDetail" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogReweigh_MasterUser" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogSpecialCal_LogSpecialOrder" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogSpecialOrder_Plan" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_LogUpPlan_MasterUser" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_Plan_LogUpPlan" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_MasterIng_MasterIng" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_Position_Page_MasterPage" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_User_Page_MasterPage" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_MasterUser_MasterPosition" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_Position_Page_MasterPosition" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_MasterRecipe_6_MasterRecipe" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_MasterRecipe_MasterRecpStation" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_MasterRecpCook_MasterRecipeName" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_MasterRecpStation_MasterRecpStation" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_Plan_MasterRecipeName" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_MasterRecpStation_MasterStation" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_MasterShift_MasterStation" />
+        <AssociationConnector Association="Ajinomoto_Weighing_SystemModel.FK_User_Page_MasterUser" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
